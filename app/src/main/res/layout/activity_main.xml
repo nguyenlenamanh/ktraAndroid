@@ -18,10 +18,17 @@
         android:layout_width="wrap_content"
         android:text="Click to say" />
 
+    <Button
+        android:id="@+id/button_id1"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Click to good bye" />
+
     <TextView
         android:id="@+id/text_view_id"
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         android:text="Xin chao "
         android:paddingLeft="6dp" />
+
 </LinearLayout>

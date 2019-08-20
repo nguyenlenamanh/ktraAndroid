@@ -19,7 +19,14 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Code here executes on main thread after user presses button
-                textView.setText("Xin chao " + editText.getText());
+                textView.setText("Xin chao: " + editText.getText());
+            }
+        });
+        final Button goodbyebutton = findViewById(R.id.button_id1);
+        goodbyebutton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // Code here executes on main thread after user presses button
+                textView.setText("Good bye: " + editText.getText());
             }
         });
     }
